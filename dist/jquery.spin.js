@@ -8,7 +8,7 @@
       define(['jquery', 'spin'], factory);
   } else {
       // Browser globals
-      factory(jQuery, Spinner);
+      factory(jQuery, spin.js.Spinner);
   }
 }(function($, Spinner) {
 
